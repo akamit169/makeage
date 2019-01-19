@@ -14,12 +14,18 @@
 Route::group(['middleware' => 'App\Http\Middleware\Clickjacking'], function() {
     
 
-
     Route::get('/', function () {
+        return view('front.dashboard');
+    });
+    Route::get('/admin', function () {
         return redirect('auth/login');
     });
 
-  
+    Route::group(['prefix' => 'front'], function () {
+         Route::get('dashboard', 'Front\IndexController@getDashboard');
+
+      });
+
 
    
     Route::post('auth/login', 'Auth\AuthController@postLogin')->middleware('guest');

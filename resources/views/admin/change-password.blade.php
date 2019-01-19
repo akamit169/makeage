@@ -6,7 +6,7 @@
     <div class="container aside-xxl">
         <a class="navbar-brand block" href="#">
             <img src="{{URL::asset('assets/admin/images/logo.png')}}" class="" alt="">
-            <span class="textLogo"> oms </span>
+            <span class="textLogo"> MakeAge </span>
         </a> 
         <section id="signIn" class="panel panel-default bg-white m-t-lg animated fadeInUp">
             <header class="panel-heading text-center"> 

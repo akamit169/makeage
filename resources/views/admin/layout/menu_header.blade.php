@@ -1,7 +1,7 @@
 <header class="header-bg-main dk header navbar navbar-fixed-top-xs">
     <div class="navbar-header aside-md"> 
        <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen,open" data-target="#nav,html"> <i class="fa fa-bars"></i> </a> 
-       <a href="{{url('admin/user')}}" class="navbar-brand"><span class="textLogo m-r-sm"> oms</span></a> 
+       <a href="{{url('admin/user')}}" class="navbar-brand"><span class="textLogo m-r-sm"> Makeage</span></a> 
        <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".nav-user"> <i class="fa fa-cog"></i> </a> 
     </div>
     <ul class="nav navbar-nav navbar-right m-n hidden-xs nav-user">

@@ -5,7 +5,8 @@
 <section id="content" class="">
     <div class="container aside-xxl">
         <a class="navbar-brand block" href="#">
-            <span class="textLogo">oms</span>
+            <img src="{{URL::asset('assets/admin/images/nlogo.png')}}" class="" alt="">
+            <span class="textLogo">MakeAge</span>
         </a> 
         <section id="signIn" class="panel panel-default bg-white m-t-lg animated fadeInUp">
             <header class="panel-heading text-center"> 
@@ -72,7 +73,7 @@
 <!-- footer --> 
 <footer id="footer">
     <div class="text-center padder">
-        <p> <small>2017 © oms</small> </p>
+        <p> <small>2019 © Makeage</small> </p>
     </div>
 </footer>
 @section('admin.layout.footer')
